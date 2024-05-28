@@ -28,7 +28,7 @@ jobs:
       - name: Download Artifact fro the build job
         uses: actions/download-artifact@v2
         with:
-          name: Spring-Angular-Demo-App
+          name: Spring-Angular-Demo-app
       - name: Deploy to Azure App Services
         uses: azure/webapps-deploy@v2
         with:
